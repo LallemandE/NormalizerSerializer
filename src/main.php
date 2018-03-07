@@ -68,7 +68,7 @@ $mySerializer = new Serializer;
 
 $outputType = 'PHPNative';
 
-echo ($mySerializer->serialize($myNormalizer->normalize($myCar, $myMetadata->getConfiguration()) , $outputType))
+echo ($mySerializer->serialize($myNormalizer->normalize($myCar, $myMetadata) , $outputType))
 
 
 
