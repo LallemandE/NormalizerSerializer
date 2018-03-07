@@ -15,7 +15,7 @@ spl_autoload_register(
 
 use features\Metadata;
 use features\Normalizer;
-use features\Serializer;
+use features\Serialize;
 
 
 class Car {
@@ -68,7 +68,7 @@ $myMetadata = new Metadata (['getBrand'=>'brand',
 
 $myNormalizer = new Normalizer;
 
-$mySerializer = new Serializer;
+$mySerializer = new Serialize;
 
 
 $outputType = 'PHPNative';

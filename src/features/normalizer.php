@@ -1,5 +1,7 @@
 <?php 
 
+namespace features;
+
 
 // Object Normalizer
 class Normalizer

@@ -10,7 +10,7 @@ class Metadata{
     }
     
     public function getConfiguration(){
-        return $this->mappingArray;
+        return $this->correspondanceArray;
     }
 }
 
