@@ -4,13 +4,18 @@ spl_autoload_register(
     function($className){
         $filename = sprintf('%s/%s.php', __DIR__, str_replace('\\', '/',
             $className));
+        
+        echo ("filename = $filename\n");
+        
         if (is_file($filename)) {
             require_once $filename;
         }
     }
     );
 
-
+use features\Metadata;
+use features\Normalizer;
+use features\Serializer;
 
 
 class Car {
