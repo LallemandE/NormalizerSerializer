@@ -11,7 +11,7 @@ class Serialize{
         }elseif($outputFormat == "JSON_FORMAT"){
             return json_encode($normalizedArray);
         }else{
-            throw new Exception("wrong/undefined outputFormat");
+            throw new \Exception("wrong/undefined outputFormat");
          }
      }
 }
