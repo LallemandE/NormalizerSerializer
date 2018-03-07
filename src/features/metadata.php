@@ -5,8 +5,6 @@ class Metadata{
     
     private $correspondanceArray=[];
     
-    
-    
     public function __construct ($mappingArray){
        $this->correspondanceArray = $mappingArray;
     }
